@@ -1,4 +1,4 @@
-from banco import Banco
+from app.banco import Banco
 
 def main():
     banco = Banco()
