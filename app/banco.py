@@ -1,5 +1,5 @@
-from cliente import Cliente
-from cuenta import Cuenta
+from app.cliente import Cliente
+from app.cuenta import Cuenta
 
 class Banco:
     def __init__(self):
