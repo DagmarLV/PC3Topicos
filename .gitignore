@@ -1,0 +1,41 @@
+# Entorno virtual
+venv/
+.env/
+
+# Archivos de Python compilados
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Entornos y dependencias
+.python-version
+Pipfile
+Pipfile.lock
+poetry.lock
+
+# VS Code
+.vscode/
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+
+# Archivos de configuración y desarrollo
+instance/
+.webassets-cache
+
+# Base de datos
+*.sqlite
+*.db
+
+# Logs y archivos temporales
+*.log
+*.pot
+*.pyc
+*.swp
+.DS_Store
+
+# Archivos de caché y distribución
+dist/
+build/
+*.egg-info/
